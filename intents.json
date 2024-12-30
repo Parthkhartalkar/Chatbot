@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "How are you?",
+        "What's up?",
+        "How's it going?",
+        "Yo"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help?",
+        "Good to see you! How can I support you today?",
+        "Hey! What can I do for you today?",
+        "Hello! How are you today?"
+      ],
+      "database": false
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Bye bye",
+        "See you soon"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you! Take care!",
+        "Goodbye, stay safe!",
+        "Take care! See you next time."
+      ],
+      "database": false
+    },
+    {
+      "tag": "course",
+      "patterns": [
+        "What courses do you offer?",
+        "courses",
+        "Tell me about the courses",
+        "What is the syllabus for this course?",
+        "What courses can I take?",
+        "How can I enroll in a course?"
+      ],
+      "responses": [
+        "We offer a variety of courses, including Computer Science, Mathematics, and Literature. Would you like to know more about a specific course?",
+        "You can check the available courses on our website. Let me know if you'd like information on a specific one.",
+        "I can help you find the course you're looking for. Please let me know what you're interested in.",
+        "Our courses cover many topics. What specific course are you looking for?"
+      ],
+      "database": false
+    },
+    {
+      "tag": "exam_scheduel",
+      "patterns": [
+        "When is the exam for this course?",
+        "When will exams be held?",
+        "What is the exam date?",
+        "When is the next exam?",
+        "Tell me the exam dates"
+      ],
+      "responses": [
+        "The exam schedule will be posted soon. You can check it on your student portal or feel free to ask me about specific dates!",
+        "Exams are usually held towards the end of the semester. Please check the official schedule or I can help with specific exam dates.",
+        "The exam schedule for the semester will be announced shortly. Stay tuned!"
+      ],
+      "database": false
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the course fee?",
+        "How much does the course cost?",
+        "What are the fees for this course?",
+        "Can you tell me about the fee structure?",
+        "How do I pay for the course?"
+      ],
+      "responses": [
+        "The fee structure depends on the course. Would you like details about a specific course?",
+        "The course fee can vary. Please check the fees section on our website for more detailed information.",
+        "You can find the fee structure on the official course page. Would you like to know about any specific course fees?"
+      ],
+      "database": false
+    }
+  ]
+}
